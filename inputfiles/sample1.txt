@@ -1,0 +1,70 @@
+//=======================================================
+//                  Envision Input File         
+//
+//                    Designed By...     
+//                  ------------------
+//                   Safwan Elmadani                    
+//                   Jake Summerville 
+//=======================================================
+
+//=======================================================
+// Copyright (c) April 26, 2021 Jacob Summerville 
+// and Safwan Elmadani
+//
+// All rights reserved.
+//=======================================================
+
+//=======================================================
+//                     Instructions                     
+//=======================================================
+//                                
+// All lines proceeding with '//' are commented lines
+// and will be ignored.
+// 
+// You can start with a default scene and add models or
+// adjust models from there. A default scene is not 
+// required.
+//
+// You will then add models to the scene along with their
+// placement in the scene
+
+
+//=======================================================
+//                    Default Scenes                                          
+//=======================================================
+// 
+// View InputReadMe.md to view all of the currently
+// supported scenes in Envision.
+// 
+// Note: A default scene is not required
+// 
+// Enter the default scene as: 'default: interchange'
+
+default: interchange_vehicles
+
+//=======================================================
+//                        Models                                                             
+//=======================================================
+// 
+// View InputReadMe.md to view all of the currently
+// supported models in Envision.
+// 
+// You will enter the model, pose, and name. The pose and 
+// name are both optional while the model is mandatory. 
+//
+// The specifications for a single model should be listed
+// on the same line with a semicolon (;) separating them.
+// 
+// Example: 'model: ambulance; pose: 10, 5, 0, 0, 0, 0'
+
+//=======================================================
+//               Creating Scene with Models                                                            
+//=======================================================
+// Accident Scene for interchange_vehicles
+
+model: prius_hybrid; pose: 14.995 11.2609 0.011591 3.3e-05 0.000135 -2.38948; name: prius1
+model: hatchback_red; pose: 22.3861 7.24825 0 0 -0 1.91804; name: red_car1
+model: hatchback_blue; pose: 16.4632 1.83329 0 0 0 -2.75281; name: blue_car1
+model: fire_truck; pose: 40.1669 8.26067 0 0 -0 1.54937; name: emergency_fire_truck
+model: ambulance; pose: 34.6138 4.00775 0 0 0 -1.56974; name: emergency_ambulance
+
