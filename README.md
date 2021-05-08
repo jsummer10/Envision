@@ -40,10 +40,6 @@ Download Envision from GitHub...
 
 <br/>
 
-### 3. Model Library
-
-Supported models are located in the env-models folder. They may have to be moved to ~/.gazebo for Envision to function properly
-
 ## Dependencies
 
 `  pip3 install html-testRunner argparse `
